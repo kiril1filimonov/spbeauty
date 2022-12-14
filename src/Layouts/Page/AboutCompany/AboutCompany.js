@@ -6,8 +6,8 @@ function AboutCompany() {
         <div>
             <Heading/> {/* Заголовок и кнопка справа */}
             <div className='d-flex row mt-5'>
-            <div className="col"><General/></div> {/* Основная информация вроде названия, типа и телефона */}
-            <div className="col"><Addresses/></div> {/* Список доступных адресов заведений */}
+               <General/>{/* Основная информация вроде названия, типа и телефона */}
+               <Addresses/>{/* Список доступных адресов заведений */}
             </div>
         </div>
     );
